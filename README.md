@@ -5,7 +5,7 @@
 
 Large Language Models (LLMs) and Small Language Models (SLMs) such as GPT-4, LLaMA 2, and Phi-2 are transforming the way industries approach customer service, automation, content creation, and more. However, running these models usually requires expensive GPU hardware or reliance on cloud services. This becomes a challenge for smaller organizations, independent developers, and students who may not have access to high-performance hardware or sufficient budgets.
 
-Cloud solutions, while accessible, often bring issues like data privacy, latency, and recurring operational costs. That’s why there's a growing need for tools that allow LLMs and SLMs to be run locally on standard CPU hardware, like a regular laptop, without compromising performance too heavily. Our project aims to solve this problem.
+Cloud solutions, while accessible, often bring issues like data privacy, latency and recurring operational costs. That’s why there's a growing need for tools that allow LLMs and SLMs to be run locally on standard CPU hardware, like a regular laptop, without compromising performance too heavily. Our project aims to solve this problem.
 
 _________________________________________________________________________________________
 ### Existing solutions: How are current tools addressing SLM and LLM deployment, and what are their limitations?
@@ -87,6 +87,8 @@ If we continue the project, we plan to:
 - Integrate FastAPI to allow models to be used in web applications
   
 - Allow real inference instead of simulating one (necessary in the development phase we unfortunately never left because we lacked time)
+
+- Make our solution fully available from an API
   
 -	Use advanced download tools like aria2c to improve speed
   
